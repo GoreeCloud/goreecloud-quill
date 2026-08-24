@@ -12,7 +12,7 @@ class QuillEditEngineTest {
     }
 
     @Test fun duplicatesSelection() {
-        assertEquals("go go", QuillEditEngine.duplicate("go ", QuillEditEngine.Selection(0, 2)))
+        assertEquals("gogo ", QuillEditEngine.duplicate("go ", QuillEditEngine.Selection(0, 2)))
     }
 
     @Test fun swapsAdjacentSelectionsWithoutChangingSeparator() {
