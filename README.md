@@ -55,3 +55,7 @@ These names represent functional contracts, not decorative badges. Stable qualif
 Quill core does not require network access and does not expose raw typed text through its diagnostics contracts. Password fields, unknown editors, editor requests that disable personalized learning, and explicit Quill Private sessions fail closed for learning, context reads, automatic clipboard retention, swipe-learning retention, and typed-text diagnostics.
 
 See [`docs/architecture.md`](docs/architecture.md) for the current architecture and validation boundary.
+
+## License
+
+GoreeCloud Quill is licensed under the Mozilla Public License 2.0 (`MPL-2.0`). The repository does not elect the MPL 2.0 Exhibit B "Incompatible With Secondary Licenses" designation. See `LICENSE`.
